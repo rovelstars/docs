@@ -1,5 +1,5 @@
 {
- "name": "Rovel Docs",
+ "name": "rovel-docs",
  "version": "0.0.1",
  "description": "The extensive documentation about all the projects by Rovel Stars",
  "main": "index.js",
@@ -17,6 +17,6 @@
  },
  "license": "MIT",
  "devDependencies": {
-  "vuepress": "^1.5.3"
+  "vuepress": "^1.7.1"
  }
 }
