@@ -66,7 +66,9 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
-     'sitemap',
-      { hostname: 'https://rovelstars.ga' }
+     [
+      'sitemap',
+      { hostname: 'https://rovelstars.ga' },
+     ]
   ]
 }
