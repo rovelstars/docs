@@ -70,6 +70,7 @@ module.exports = {
      [
       'sitemap',
       { hostname: 'https://rovelstars.ga' },
-     ]
+     ],
+     'seo'
   ]
 }
