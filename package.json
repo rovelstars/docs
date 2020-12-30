@@ -1,19 +1,22 @@
 {
-  "name": "Rovel Docs",
-  "version": "0.0.1",
-  "description": "The extensive documentation about all the projects by Rovel Stars",
-  "main": "index.js",
-  "authors": {
-    "name": "Rovel Stars",
-    "email": "support@rovelstars.ga"
-  },
-  "repository": "rovelstars/docs/Rovel Docs",
-  "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
-  },
-  "license": "MIT",
-  "devDependencies": {
-    "vuepress": "^1.5.3"
-  }
+ "name": "Rovel Docs",
+ "version": "0.0.1",
+ "description": "The extensive documentation about all the projects by Rovel Stars",
+ "main": "index.js",
+ "authors": {
+  "name": "Rovel Stars",
+  "email": "support@rovelstars.ga"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git://github.com/rovelstars/docs.git"
+ },
+ "scripts": {
+  "dev": "vuepress dev src",
+  "build": "vuepress build src"
+ },
+ "license": "MIT",
+ "devDependencies": {
+  "vuepress": "^1.5.3"
+ }
 }
