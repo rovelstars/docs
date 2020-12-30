@@ -1,15 +1,9 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: https://cdn.discordapp.com/attachments/790584603190231040/791597011165249536/20201224_145341_0000.png
 tagline: The extensive documentation about all the projects by Rovel Stars
 actionText: Quick Start →
 actionLink: /guide/
-features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
+Hmm, do you think this docs isnt finished? **Yes it isn't!** Join our discord server to help us with it now!
 footer: Made by Rovel Stars with ❤️
 ---
