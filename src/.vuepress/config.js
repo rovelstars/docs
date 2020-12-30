@@ -18,7 +18,8 @@ module.exports = {
   head: [
     ['meta', { name: 'theme-color', content: '#7289da' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['meta', { name: 'og:image', content: 'https://cdn.discordapp.com/attachments/775220204699385886/775220344688214016/images_1.jpeg' }],
   ],
 
   /**
