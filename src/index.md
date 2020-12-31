@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://cdn.discordapp.com/attachments/790584603190231040/791597011165249536/20201224_145341_0000.png
+heroImage: https://img.icons8.com/bubbles/2x/google-docs.png
 tagline: The extensive documentation about all the projects by Rovel Stars
 actionText: Quick Start →
 actionLink: /guide/
