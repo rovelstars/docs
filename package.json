@@ -21,6 +21,8 @@
   "vuepress-plugin-seo": "^0.1.4"
  },
  "dependencies": {
+  "vuepress-plugin-code-copy": "^1.0.6",
+  "vuepress-plugin-code-switcher": "^1.0.3",
   "vuepress-plugin-sitemap": "^2.3.1"
  }
 }
