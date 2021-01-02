@@ -74,5 +74,7 @@ module.exports = {
       'sitemap',
    { hostname: 'https://rovelstars.ga' },
      ],
+     'code-switcher',
+     'vuepress-plugin-code-copy',
   ]
 }
