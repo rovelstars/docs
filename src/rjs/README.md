@@ -1,6 +1,7 @@
 ---
 home: true
-heroImage: https://cdn.discordapp.com/attachments/775220204699385886/800004524718424074/Screenshot_20210116-1940022.png
+title: Rovel.js
+heroImage: https://cdn.discordapp.com/attachments/775220204699385886/793104276699480064/20201217_095026_0000.png
 tagline: The npm package everyone wanted!
 actionText: Get the package on npm
 actionLink: https://npmjs.com/package/rovel.js
