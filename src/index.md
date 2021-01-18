@@ -7,7 +7,8 @@ actionLink: /rjs/
 footer: Made by Rovel Stars with ❤️
 ---
 
-:::warning This documentation Website will be moving to **rovelstars.xyz** soon! :::
+:::warning This documentation Website will be moving to **rovelstars.xyz** soon!
+:::
 
 :::info This documentation is this much completed:
 `▰▰▰▰▰▰▰▰▰▱ 90%`
