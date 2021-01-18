@@ -50,10 +50,10 @@ module.exports = {
    '/rjs/': [
     {
      title: 'Rovel.js',
-     collapsable: false,
+     collapsable: true,
      children: [
-            '',
-            'using-vue',
+            'intro',
+            'plugins',
           ]
         }
       ],
