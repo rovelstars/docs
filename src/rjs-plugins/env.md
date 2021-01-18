@@ -1,4 +1,4 @@
-# env
+# ENV
 
 <img src="https://raw.githubusercontent.com/motdotla/dotenv/master/dotenv.png" alt="env" align="right" />
 

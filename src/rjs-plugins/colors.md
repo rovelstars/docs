@@ -1,4 +1,4 @@
-# colors
+# Terminal Coloring
 
 > Easily add coloring to your text and symbols in the terminal. A faster drop-in replacement for chalk, kleur and turbocolor (without the dependencies and rendering bugs).
 

@@ -1,4 +1,4 @@
-# api-npm
+# Api NPM
 This plugin will do query NPM registry to fetch any NPM module details including statistics.
 
 To use the plugin, add this it in your code:

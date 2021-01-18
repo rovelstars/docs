@@ -1,4 +1,4 @@
-# Node Emoji 
+# Node Emoji
 This plugin provides simple text to emoji conversation for your projects 😏
 
 ## Usage

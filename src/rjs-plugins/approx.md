@@ -1,4 +1,5 @@
-# approx
+# Number Approxer
+
 This plugin allows you to convert normal number into approxed number. (More like human readable number 😎)
 
 # Usage

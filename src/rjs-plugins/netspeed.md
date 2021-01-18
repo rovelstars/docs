@@ -1,3 +1,5 @@
+# Net Speed
+
 > Netspeed plugin is a basic Javascript Module used to check upload and download speed. 🚂🚋🚋🚋🚋
 
 ## Functionality

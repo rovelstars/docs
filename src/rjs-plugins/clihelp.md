@@ -1,4 +1,5 @@
-# CliHelp
+# Cli Help
+
 > The Easiest cli help interface maker 😌
 
 Clihelp is a small but powerful plugin for building command-line interface (CLI) applications for Node.js that are fast, responsive, and helpful!
