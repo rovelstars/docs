@@ -39,7 +39,7 @@ prog.parse(process.argv);
 
 ***Output:***
 
-```a
+```bash
 $ my-cli --help
 
   Usage
