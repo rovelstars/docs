@@ -31,7 +31,7 @@ module.exports = {
   * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
   */
  themeConfig: {
-  repo: '',
+  repo: 'rovelstars/docs',
   editLinks: false,
   docsDir: '',
   editLinkText: '',
@@ -44,6 +44,10 @@ module.exports = {
    {
     text: 'Rovel.js',
     link: '/rjs/'
+      },
+      {
+    text: 'Rovel.js - Plugins',
+    link: '/rjs-plugins/'
       }
     ],
   sidebar: {

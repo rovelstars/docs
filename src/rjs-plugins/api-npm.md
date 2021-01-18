@@ -16,7 +16,7 @@ The current version of the module has only two functions to use
 1. getstat (modulename,startdate,enddate,callback)
 
 2. getdetails (modulename,callback)
-```
+```js
   var api = require('rovel.js').npm;
   api.getstat('express','2016-11-12','2016-12-09',test);
   //api.getdetails('simple-html-template',test);
@@ -36,26 +36,26 @@ NPM api currently doesn't allow querying download count for more than 1 month da
 
 The output of the above script will be
 
-```
+```json
 { downloads: 7251486,
   start: '2016-11-12',
   end: '2016-12-09',
   package: 'express' }
 ```
 In case Module name or date range is invalid then we will get an additional JSON attribute named "error" for example if we change the code to this 
-```
+```js
 api.getstat('express1','2016-11-12','2016-12-09',test);
 
 ```
 
 Then the output will be like this
 
-```
+```js
 { error: 'no stats for this package for this period (0002)' }
 ```
 
 Now lets have a look at another function to see how can we get detaails of any Module from NPM registry
-```
+```js
 var api = require('rovel.js').npm;
  // api.getstat('express1','2016-11-12','2016-12-09',test);
   api.getdetails('simple-html-template',test);
@@ -69,7 +69,7 @@ function test(data)
 The output of the above code will be below
 
 
-```
+```js
 { _id: 'simple-html-template',
   _rev: '2-87d91b144499201df505812eeb57d9e3',
   name: 'simple-html-template',

@@ -166,7 +166,7 @@ help('sirv [dir]', true)
 
 When `sirv --help` is run, the generated help text is trimmed, fully aware that there's only one command in this program:
 
-```
+```bash
   Description
     Run a static file server
 
@@ -219,7 +219,7 @@ help('npm')
 
 When we run `npm --help` we'll see this general help text:
 
-```
+```bash
   Usage
     $ npm <command> [options]
 
@@ -236,7 +236,7 @@ When we run `npm --help` we'll see this general help text:
 
 When we run `npm install --help` &mdash; ***or*** the help flag with any of `install`'s aliases &mdash; we'll see this command-specific help text:
 
-```
+```bash
   Description
     Install a package
 
@@ -654,8 +654,3 @@ Type: `String`<br>
 Default: `null`
 
 The name of the command for which to display help. Otherwise displays the general help.
-
-
-## License
-
-MIT © [Luke Edwards](https://lukeed.com)
