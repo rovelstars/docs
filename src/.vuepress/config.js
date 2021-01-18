@@ -52,7 +52,11 @@ module.exports = {
      title: 'Rovel.js',
      collapsable: true,
      children: [
-            '',
+            '/',
+            'plugins',
+            'plugins/api-npm',
+            'plugins/cli-help',
+            'plugins/env',
           ]
         }
       ],
