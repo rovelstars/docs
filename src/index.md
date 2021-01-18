@@ -6,4 +6,9 @@ actionText: Get Started with Rovel.js 📦➡️
 actionLink: /rjs/
 footer: Made by Rovel Stars with ❤️
 ---
-Hmm, do you think this docs isnt finished? **Yes it isn't!** Join our discord server to help us with it now!
+
+:::warning This documentation Website will be moving to **rovelstars.xyz** soon! :::
+
+:::info This documentation is this much completed:
+`▰▰▰▰▰▰▰▰▰▱ 90%`
+:::
