@@ -9,7 +9,7 @@ footer: Feature missing? Join our Discord Server and make a suggestion!
 ---
 
 # Introduction
-Rovel.js is a lightweight package, that dosen't require building, and gives you a variety of amazing features for your project. Rovel.js includes plugins, which increase the features of it. More about plugins are [here](/rjs/plugins) .
+Rovel.js is a lightweight package, that dosen't require building, and gives you a variety of amazing features for your project. Rovel.js includes plugins, which increase the features of it. More about plugins are [here](/rjs-plugins) .
 
 Rovel.js was initially meant to be used as an API client for our discord list, but was later extended to use our API [website](https://rovelapi.glitch.me) and then, was extended more to fit every programmer's needs 😌.
 

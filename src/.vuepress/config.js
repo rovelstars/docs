@@ -56,14 +56,14 @@ module.exports = {
           ]
         }
       ],
-      '/rjs/plugins': [{
+      '/rjs-plugins/': [{
        title: 'Rovel.js - Plugins',
        collapsable: true,
        children: [
              '/',
-             'api-npm',
-             'clihelp',
-             'env'
+             '/api-npm',
+             '/clihelp',
+             '/env'
         ]
       }],
   }
