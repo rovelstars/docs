@@ -53,13 +53,19 @@ module.exports = {
      collapsable: true,
      children: [
             '/',
-            'plugins',
-            'plugins/api-npm',
-            'plugins/cli-help',
-            'plugins/env',
           ]
         }
       ],
+      '/rjs/plugins': [{
+       title: 'Rovel.js - Plugins',
+       collapsable: true,
+       children: [
+             '/',
+             'api-npm',
+             'clihelp',
+             'env'
+        ]
+      }],
   }
  },
 
