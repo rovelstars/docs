@@ -68,7 +68,12 @@ module.exports = {
              '',
              'api-npm',
              'clihelp',
-             'env'
+             'env',
+             'approx',
+             'colors',
+             'emoji',
+             'fetch',
+             'netspeed'
             ]
           }
         ],
