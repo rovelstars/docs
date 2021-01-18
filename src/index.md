@@ -8,7 +8,7 @@ footer: Made by Rovel Stars with ❤️
 ---
 
 :::warning Domain Change!
-This documentation Website will be moving to ovelstars.xyz soon!
+This documentation Website will be moving to rovelstars.xyz soon!
 :::
 
 :::tip Progress
