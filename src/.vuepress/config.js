@@ -23,6 +23,7 @@ module.exports = {
     ['meta', { name: 'og:image', content: 'https://cdn.discordapp.com/attachments/775220204699385886/775220344688214016/images_1.jpeg' }],
     ["script", { src: "https://unpkg.com/wc-discord-message@^2.0.0/dist/wc-discord-message/wc-discord-message.js" }],
     ["script", { src: "https://kit.fontawesome.com/4997c612d8.js", crossorigin: 'anonymous' }],
+    ["script async", {src: "https://arc.io/widget.min.js#TX4pHycR"}],
   ],
 
  /**
