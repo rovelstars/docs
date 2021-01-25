@@ -24,10 +24,13 @@ module.exports = {
     ["script", { src: "https://unpkg.com/wc-discord-message@^2.0.0/dist/wc-discord-message/wc-discord-message.js" }],
     ["script", { src: "https://kit.fontawesome.com/4997c612d8.js", crossorigin: 'anonymous' }],
     ["script async", {src: "https://arc.io/widget.min.js#TX4pHycR"}],
+    ["script", {src: "https://code.jquery.com/jquery-3.5.1.min.js"}],
+    ["script", {src: "http://brainshop.ai/api/aco.js?bid=154180&key=wE3UDL25F1IX6jt6"}],
   ],
 
  /**
   * <script src="https://kit.fontawesome.com/4997c612d8.js" crossorigin="anonymous"></script>
+  * <script src="http://brainshop.ai/api/aco.js?bid=154180&key=wE3UDL25F1IX6jt6"></script>
   * Theme configuration, here is the default theme configuration for VuePress.
   *
   * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
