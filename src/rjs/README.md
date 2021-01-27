@@ -36,5 +36,4 @@ You wanted to try this thing out? Do it here before installing it on your termin
     element: document.getElementById("term"),
     // specify the source of the notebook
     source: "const rovel = require(\"rovel.js\");\nconsole.log(rovel.text.green(\"Hello World\",\"From rovel.js!\"));",
-    setNodeVersion: (NodeVersion: "14.x"),
 })</script>
