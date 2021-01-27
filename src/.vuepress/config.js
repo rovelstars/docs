@@ -54,7 +54,11 @@ module.exports = {
       {
     text: 'Rovel.js - Plugins',
     link: '/rjs-plugins/'
-      }
+      },
+      {
+    text: 'Rovel.js on Runkit',
+    link: 'https://npm.runkit.com/rovel.js'
+      },
     ],
   sidebar: {
    '/rjs/': [
