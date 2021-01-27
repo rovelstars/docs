@@ -28,7 +28,7 @@ Some of the features in rovel.js are:
 
 # Try it out! 😎
 You wanted to try this thing out? Do it here before installing it on your terminal! We have our own terminal saved online! If you want to visit the site anytime, just go to the below button.
-[![Try Rovel.js on RunKit](https://badge.runkitcdn.com/rovel.js.svg)](https://npm.runkit.com/rovel.js)
+[![Try Rovel.js on RunKit](https://img.shields.io/static/v1?label=TRY%20ROVEL.JS%20ON&message=RUNKIT&color=red&logo=runkit&style=for-the-badge)](https://npm.runkit.com/rovel.js)
 
 <div id="term"></div>
 <script>var notebook = RunKit.createNotebook({
