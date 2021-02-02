@@ -101,6 +101,12 @@ module.exports = {
   * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
   */
  plugins: [
+     'markdown', 
+     {
+    extendMarkdown: md => {
+      md.use(require('markdown-it-task-lists'))
+    }
+  },
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
      [

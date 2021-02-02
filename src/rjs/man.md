@@ -1,11 +1,11 @@
-```
+
 Please read our docs at https://rovel.js.org
 Since we sync our docs with rovel.js,
 Therefore you can always read the latest version of rovel.js.
 
 Also Thanks for installing Rovel.js!
 
---About--
+> About
 
 This package was mainly meant to learn about npm features, but it became a great project that everyone loves!
 It was made in the free time, so we could help others with some features that they wanted.
@@ -19,6 +19,4 @@ You can always talk to us on Discord Server: https://discord.gg/953XCpHbKF
 
 Or you can find a way to our github repo: https://github.com/rovelstars/rovel.js
 We have discussions open so feel free to leave a message there or ask us for help!
-
-                                                 -Sayantan Das (owner of Rovel Stars)
-```
+> Sayantan Das (owner of Rovel Stars)
