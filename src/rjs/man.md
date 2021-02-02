@@ -1,4 +1,5 @@
-<--- Please read our docs at https://rovel.js.org
+```
+Please read our docs at https://rovel.js.org
 Since we sync our docs with rovel.js,
 Therefore you can always read the latest version of rovel.js.
 
@@ -19,4 +20,5 @@ You can always talk to us on Discord Server: https://discord.gg/953XCpHbKF
 Or you can find a way to our github repo: https://github.com/rovelstars/rovel.js
 We have discussions open so feel free to leave a message there or ask us for help!
 
-                                                 -Sayantan Das (owner of Rovel Stars) -->
+                                                 -Sayantan Das (owner of Rovel Stars)
+```
