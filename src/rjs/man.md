@@ -1,5 +1,5 @@
 
-Please read our docs at https://rovel.js.org
+Please read our docs at [rovel.js.org](https://rovel.js.org)
 Since we sync our docs with rovel.js,
 Therefore you can always read the latest version of rovel.js.
 
@@ -15,7 +15,7 @@ We used Android device to work on this project.
 - Termux (Linux Terminal on Android)
 Without the support of the above apps, we couldn't accomplish this great work!
 
-You can always talk to us on Discord Server: https://discord.gg/953XCpHbKF
+You can always talk to us on Discord Server: [Discord Server](https://discord.gg/953XCpHbKF)
 
 Or you can find a way to our github repo: https://github.com/rovelstars/rovel.js
 We have discussions open so feel free to leave a message there or ask us for help!

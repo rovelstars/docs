@@ -67,7 +67,6 @@ module.exports = {
      collapsable: true,
      children: [
             '',
-            'man'
           ]
         }
       ],
