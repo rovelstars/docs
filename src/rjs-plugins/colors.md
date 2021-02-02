@@ -78,6 +78,9 @@ console.log(chalk.bold(`foo ${chalk.red.dim('bar')} baz`));
 
 Easily enable/disable colors.
 
+:::tip colors plugin uses [supports-colors](/rjs-plugins/supports-colors) plugin by default to check whether your terminal supports colors or not.
+:::
+
 ```js
 const text = require("rovel.js").text;
 

@@ -83,7 +83,9 @@ module.exports = {
              'colors',
              'emoji',
              'fetch',
-             'netspeed'
+             'netspeed',
+             'supports-colors',
+             'pkgjs'
             ]
           }
         ],
