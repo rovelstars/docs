@@ -1,6 +1,6 @@
 # List of Rovel.js Plugins
 
-Here's the list of all plugins at the moment of Rovel.js v1.1.8 [stable]:
+Here's the list of all plugins at the moment of Rovel.js v1.1.9 [stable]:
 
 - [x] [api-npm](/rjs-plugins/api-npm)
 - [x] [clihelp](/rjs-plugins/clihelp)
