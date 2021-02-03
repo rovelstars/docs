@@ -78,17 +78,16 @@ console.log(chalk.bold(`foo ${chalk.red.dim('bar')} baz`));
 
 Easily enable/disable colors.
 
-:::tip colors plugin uses [supports-colors](/rjs-plugins/supports-colors) plugin by default to check whether your terminal supports colors or not.
-:::
+Colors plugin uses [supports-colors](/rjs-plugins/supports-colors) plugin by default to check whether your terminal supports colors or not.
 
 ```js
-const text = require("rovel.js").text;
+const {text, supportsColors} = require("rovel.js");
 
 // disable colors manually
 text.enabled = false;
 
-// or use a library to automatically detect support
-text.enabled = require('color-support').hasBasic;
+// or use our plugin to automatically detect support
+text.enabled = supportsColors.hasBasic;
 
 console.log(text.red('I will only be colored red if the terminal supports colors'));
 ```
