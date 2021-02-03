@@ -11,6 +11,6 @@ Here's the list of all plugins at the moment of Rovel.js v1.1.9 [stable]:
 - [x] [colors](/rjs-plugins/colors)
 - [x] [fetch](/rjs-plugins/fetch)
 - [x] [netspeed](/rjs-plugins/netspeed)
-- [ ][time](/rjs-plugins/time)
+- [ ] [time](/rjs-plugins/time)
 - [x] [supports-colors](/rjs-plugins/supports-colors)
 - [x] [pkgjs](/rjs-plugins/pkgjs)
