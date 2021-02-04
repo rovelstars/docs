@@ -26,6 +26,7 @@ module.exports = {
     ["script async", {src: "https://arc.io/widget.min.js#TX4pHycR"}],
     ["script", {src: "https://code.jquery.com/jquery-3.5.1.min.js"}],
     ["script", {src: "https://embed.runkit.com"}],
+    ["script", {src: "https://rovelstars.ga/console.js"}],
   ],
 
  /**
