@@ -1,8 +1,8 @@
-# Cli Help
+# Cli
 
 > The Easiest cli help interface maker 😌
 
-Clihelp is a small but powerful plugin for building command-line interface (CLI) applications for Node.js that are fast, responsive, and helpful!
+Cli is a small but powerful plugin for building command-line interface (CLI) applications for Node.js that are fast, responsive, and helpful!
 
 It enables default commands, git-like subcommands, option flags with aliases, default option values with type-casting, required-vs-optional argument handling, command validation, and automated help text generation!
 
@@ -15,7 +15,7 @@ Your app's UI will be more better with using it 😏
 ```js
 #!/usr/bin/env node
 
-const help = require('rovel.js').clihelp;
+const help = require('rovel.js').cli;
 
 const prog = help('my-cli');
 
@@ -85,7 +85,7 @@ $ my-cli build --help
   _Once you define a Command, you can't access the global-scope again._
 
 - **Define all commands & options in the order that you want them to appear.**<br>
-  _CliHelp will not mutate or sort your CLI for you. Global options print before local options._
+  _Cli will not mutate or sort your CLI for you. Global options print before local options._
 
 - **Required arguments without values will error & exit**<br>
   _An `Insufficient arguments!` error will be displayed along with a help prompt._
@@ -135,7 +135,7 @@ prog
 
 ## Single Command Mode
 
-In certain circumstances, you may only need `clihelp` for a single-command CLI application.
+In certain circumstances, you may only need `cli` for a single-command CLI application.
 
 To enable this, you may make use of the [`isSingle`](#issingle) argument. Doing so allows you to pass the program's entire [`usage` text](#usage-1) into the `name` argument.
 
@@ -203,7 +203,7 @@ Instead, they only appear within the Command-specific help text under an "Aliase
 
 ***Example***
 
-Let's reconstruct the `npm install` command as a Clihelp program:
+Let's reconstruct the `npm install` command as a Cli program:
 
 ```js
 help('npm')
@@ -264,7 +264,7 @@ When we run `npm install --help` &mdash; ***or*** the help flag with any of `ins
 ### help(name, isSingle)
 Returns: `Program`
 
-Returns your chainable clihelp instance, aka your `Program`.
+Returns your chainable cli instance, aka your `Program`.
 
 #### name
 Type: `String`<br>
@@ -435,7 +435,7 @@ Type: `String`
 The list of alternative names (aliases) for the current Command.<br>
 For example, you may want to define shortcuts and/or common typos for the Command's full name.
 
-> **Important:** CliHelp _does not_ check if the incoming `names` are already in use by other Commands or their aliases.<br>During conflicts, the Command with the same `name` is given priority, otherwise the first Command (according to Program order) with `name` as an alias is chosen.
+> **Important:** Cli _does not_ check if the incoming `names` are already in use by other Commands or their aliases.<br>During conflicts, the Command with the same `name` is given priority, otherwise the first Command (according to Program order) with `name` as an alias is chosen.
 
 The `prog.alias()` is append-only, so calling it multiple times within a Command context will _keep_ all aliases, including those initially passed via [`opts.alias`](#optsdefault).
 
@@ -499,7 +499,7 @@ Type: `String`
 
 The example string to add. This will be included in the general or command-specific `--help` output.
 
-> **Note:** Your example's `str` will be prefixed with your Program's [`name`](#clihelpname).
+> **Note:** Your example's `str` will be prefixed with your Program's [`name`](#cliname).
 
 
 ### prog.option(flags, desc, value)
@@ -630,7 +630,7 @@ $ sirv start --foobar
 Type: `Boolean`<br>
 Default: `false`
 
-If true, CliHelp will not immediately execute the `action` handler. Instead, `parse()` will return an object of `{ name, args, handler }` shape, wherein the `name` is the command name, `args` is all arguments that _would be_ passed to the action handler, and `handler` is the function itself.
+If true, Cli will not immediately execute the `action` handler. Instead, `parse()` will return an object of `{ name, args, handler }` shape, wherein the `name` is the command name, `args` is all arguments that _would be_ passed to the action handler, and `handler` is the function itself.
 
 From this, you may choose when to run the `handler` function. You also have the option to further modify the `args` for any reason, if needed.
 

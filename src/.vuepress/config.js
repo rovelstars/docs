@@ -75,7 +75,7 @@ module.exports = {
        children: [
              '',
              'api-npm',
-             'clihelp',
+             'cli',
              'env',
              'approx',
              'colors',

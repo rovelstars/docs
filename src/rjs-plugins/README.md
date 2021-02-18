@@ -3,7 +3,7 @@
 Here's the list of all plugins at the moment of Rovel.js v1.1.9 [stable]:
 
 - [x] [api-npm](/rjs-plugins/api-npm)
-- [x] [clihelp](/rjs-plugins/clihelp)
+- [x] [cli](/rjs-plugins/cli)
 - [x] [env](/rjs-plugins/env)
 - [ ] [functions](/rjs-plugins/functions)
 - [x] [node-emoji](/rjs-plugins/emoji)
