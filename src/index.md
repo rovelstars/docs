@@ -8,7 +8,7 @@ footer: Made by Rovel Stars with ❤️
 ---
 
 :::warning Domain Change!
-This documentation Website will be moving to rovelstars.xyz soon!
+Welcome everyone to docs.rovelstars.com! Rovelstars.ga is deprecated and will be removed in future.
 :::
 
 :::tip Progress
