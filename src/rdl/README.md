@@ -18,18 +18,19 @@ The current (v0) version of api documentation can be found here: [documentation 
 
 ### Some Common Terms that we relate to
 
-:::info
-**Code**: Api Authentication Token for Bots to access specific endpoints like `/bots/info` or posting at `/bots/:id/code`, etc.
+:::info Bot's Code
+Api Authentication Token for Bots to access specific endpoints like "/bots/info" or posting at "/bots/:id/code", etc.
 
 Conventions:
-You can use either `/?code={BotCode}` in the url itself, or if you like the traditional authentication with headers, use `RDL-code: {BotCode}` in headers.
+You can use either "/?code={BotCode}" in the url itself, or if you like the traditional authentication with headers, use "RDL-code: {BotCode}" in headers.
 :::
 
-:::info
-**Key**: Api Authentication Token for Users to access specific endpoints like `/bots/:id/code` or changing preferences at `/api/preferences`, etc.
+:::info User's Token
+Api Authentication Token for Users to access specific endpoints like "/bots/:id/code" or changing preferences at "/api/preferences", etc.
+
 Conventions:
 Normally you can visit these links in the same browser where you logged into RDL.
-Or, You can use either `/?key={BotCode}` in the url itself, or if you like the traditional authentication with headers, use `RDL-key: {UserKey}` in headers.
+Or, You can use either "/?key={BotCode}" in the url itself, or if you like the traditional authentication with headers, use "RDL-key: {UserKey}" in headers.
 :::
 
 :::tip You Don't Need to post your bot's server stats!
