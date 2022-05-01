@@ -89,13 +89,7 @@ module.exports = {
       ],
       '/rdl/': [
         {
-          title: 'Rovel Discord List',
-          collapsable: true,
-          children: [
-            '',
-            'api',
-            'api/bots'
-          ],
+          title: 'Rovel Discord List'
         }
       ],
     }
