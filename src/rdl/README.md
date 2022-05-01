@@ -6,7 +6,7 @@ description: Give users a bird eye's view of RDL
 ## Rovel Discord List
 
 :::success You Managed to come over here!
-It looks like you have found the docs about Rovel Discord List
+It looks like you have found the docs about [Rovel Discord List](https://discord.rovelstars.com)
 :::
 
 Rovel Discord List (or RDL in short), is a discord listing service for bots, servers, users, api libraries, emojis, stickers and much more!
@@ -19,19 +19,19 @@ The current (v0) version of api documentation can be found here: [documentation 
 ### Some Common Terms that we relate to
 
 :::info Bot's Code
-Api Authentication Token for Bots to access specific endpoints like "/bots/info" or posting at "/bots/:id/code", etc.
-
-Conventions:
-You can use either "/?code={BotCode}" in the url itself, or if you like the traditional authentication with headers, use "RDL-code: {BotCode}" in headers.
+Api Authentication Token for Bots to access specific endpoints like `/bots/info` or posting at `/bots/:id/code`, etc.
 :::
 
+Conventions:
+You can use either `/?code={BotCode}` in the url itself, or if you like the traditional authentication with headers, use `RDL-code: {BotCode}` in headers.
+
 :::info User's Token
-Api Authentication Token for Users to access specific endpoints like "/bots/:id/code" or changing preferences at "/api/preferences", etc.
+Api Authentication Token for Users to access specific endpoints like `/bots/:id/code` or changing preferences at `/api/preferences`, etc.
+:::
 
 Conventions:
 Normally you can visit these links in the same browser where you logged into RDL.
-Or, You can use either "/?key={BotCode}" in the url itself, or if you like the traditional authentication with headers, use "RDL-key: {UserKey}" in headers.
-:::
+Or, You can use either `/?key={BotCode}` in the url itself, or if you like the traditional authentication with headers, use `RDL-key: {UserKey}` in headers.
 
 :::tip You Don't Need to post your bot's server stats!
 We do a little bit of magic ✨ in order to show your bot server count automatically on the site! You generally don't need to post your bot's server stats, unless you want non-approximate server count. Do note that we show approx count on the site itself (like 21k servers and 5k votes) so you don't really need to post your bot's server stats. But if you still want to continue, I wish you good luck coding your bot!

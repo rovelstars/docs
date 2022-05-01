@@ -3,7 +3,7 @@ title: Bots API
 description: Can't describe how much pain is writing documentation
 ---
 
-## All Bots `/bots` {#allbots}
+## All Bots `/bots`
 
 > Returns an array of all bots
 
@@ -49,10 +49,11 @@ description: Can't describe how much pain is writing documentation
 
 :::tip
 Use Query Parameter `/?q={searchTerm}` to narrow down search results!
-You can even use search term like `"slug":"hmm"` or similar compressed json in order to further narrow down your search results!
 :::
 
-## Specific Bot `/bots/:id` {#specificbot}
+You can even use search term like `"slug":"hmm"` or similar compressed json in order to further narrow down your search results!
+
+## Specific Bot `/bots/:id`
 
 > Returns a single bot
 
@@ -93,7 +94,7 @@ You can even use search term like `"slug":"hmm"` or similar compressed json in o
 {"err":"not_found"}
 ```
 
-## Get Info About Bot by it's code `/bots/info` {#botinfo}
+## Get Info About Bot by it's code `/bots/info`
 
 > Returns bot object like above if **code** query or authentication header is present
 
@@ -109,7 +110,7 @@ You can even use search term like `"slug":"hmm"` or similar compressed json in o
 {"err":"invalid_code"}
 ```
 
-## Post Card Info of a bot `/bots/:id/card` {#botcard}
+## Post Card Info of a bot `/bots/:id/card`
 
 > Body in JSON:
 
@@ -137,12 +138,13 @@ You can even use search term like `"slug":"hmm"` or similar compressed json in o
 { err: "no_code" } //if you don't provide bot code haha
 ```
 
-## Get Bot's Code `/bots/:id/code` {#botcode}
+## Get Bot's Code `/bots/:id/code`
 
 :::info User Side Route!
 This Route can be accessed only by users (bot owners in this case) and not bots!
-Visit This On the same browser where you logged into RDL, or add a query `/?key={key}` to the end of api link.
 :::
+
+Visit This On the same browser where you logged into RDL, or add a query `/?key={key}` to the end of api link.
 
 > Returns this if successful:
 
@@ -162,12 +164,13 @@ Visit This On the same browser where you logged into RDL, or add a query `/?key=
 { err: "no_key" } //EPIC FAIL, welcome to failure management!
 ```
 
-## Create a short link for your bot! `/bots/:id/slug` {#get-your-slug-today}
+## Create a short link for your bot! `/bots/:id/slug`
 
 :::info User Side Route!
 This Route can be accessed only by users (bot owners in this case) and not bots!
-Visit This On the same browser where you logged into RDL, or add a query `/?key={key}` to the end of api link.
 :::
+
+Visit This On the same browser where you logged into RDL, or add a query `/?key={key}` to the end of api link.
 
 > Returns the bot's current if no `?slug={shortName} is passed:
 
@@ -195,7 +198,7 @@ Visit This On the same browser where you logged into RDL, or add a query `/?key=
 { err: "used_slug" } //rest in peace, try different name? or maybe add "bot" to the end of slug that you tried
 ```
 
-## Post Server Stats `/bots/:id/servers` {#serverstats}
+## Post Server Stats `/bots/:id/servers`
 
 > Body in JSON:
 

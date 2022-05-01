@@ -11,7 +11,7 @@ Short Link Api Url(s) (**should not be used in production!**):
 `https://dscrdly.com/api`
 :::
 
-## Root URL `/` {#root}
+## Root URL `/`
 
 > Returns
 
