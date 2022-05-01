@@ -47,7 +47,6 @@ description: Can't describe how much pain is writing documentation
 ]
 ```
 
-:::tip
 Use Query Parameter `/?q={searchTerm}` to narrow down search results!
 :::
 
@@ -140,9 +139,8 @@ You can even use search term like `"slug":"hmm"` or similar compressed json in o
 
 ## Get Bot's Code `/bots/:id/code`
 
-:::info User Side Route!
+User Side Route!
 This Route can be accessed only by users (bot owners in this case) and not bots!
-:::
 
 Visit This On the same browser where you logged into RDL, or add a query `/?key={key}` to the end of api link.
 
@@ -166,9 +164,7 @@ Visit This On the same browser where you logged into RDL, or add a query `/?key=
 
 ## Create a short link for your bot! `/bots/:id/slug`
 
-:::info User Side Route!
 This Route can be accessed only by users (bot owners in this case) and not bots!
-:::
 
 Visit This On the same browser where you logged into RDL, or add a query `/?key={key}` to the end of api link.
 

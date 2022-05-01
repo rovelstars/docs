@@ -5,29 +5,25 @@ description: Give users a bird eye's view of RDL
 
 ## Rovel Discord List
 
-:::success You Managed to come over here!
+You Managed to come over here!
 It looks like you have found the docs about [Rovel Discord List](https://discord.rovelstars.com)
-:::
 
 Rovel Discord List (or RDL in short), is a discord listing service for bots, servers, users, api libraries, emojis, stickers and much more!
-:::info RDL is in alpha, and is having a rewrite at the moment.
+RDL is in alpha, and is having a rewrite at the moment.
 The current version of RDL's api should be referred to v0, and not v1. You can refer rewrite's api to v1.
-:::
 
 The current (v0) version of api documentation can be found here: [documentation on v0 api](/rdl/api)
 
 ### Some Common Terms that we relate to
 
-:::info Bot's Code
+### Bot's Code
 Api Authentication Token for Bots to access specific endpoints like `/bots/info` or posting at `/bots/:id/code`, etc.
-:::
 
 Conventions:
 You can use either `/?code={BotCode}` in the url itself, or if you like the traditional authentication with headers, use `RDL-code: {BotCode}` in headers.
 
-:::info User's Token
+### User's Token
 Api Authentication Token for Users to access specific endpoints like `/bots/:id/code` or changing preferences at `/api/preferences`, etc.
-:::
 
 Conventions:
 Normally you can visit these links in the same browser where you logged into RDL.
