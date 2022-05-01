@@ -8,6 +8,11 @@ actionLink: https://npmjs.com/package/rovel.js
 footer: Feature missing? Join our Discord Server and make a suggestion!
 ---
 
+:::warning Rovel.js may get deprecated in future!
+This package has not been updated over an year now, therefore it can have a certain number of bugs and unknown vulnerabilities.
+We recommend you to choose other packages instead of using rovel.js . Thanks for the support over the years!
+:::
+
 # Introduction
 Rovel.js is a lightweight package, that dosen't require building, and gives you a variety of amazing features for your project. Rovel.js includes plugins, which increase the features of it. More about plugins are [here](/rjs-plugins) .
 
