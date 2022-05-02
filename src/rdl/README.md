@@ -6,7 +6,7 @@ description: Give users a bird eye's view of RDL
 ## Rovel Discord List
 
 You Managed to come over here!
-It looks like you have found the docs about [Rovel Discord List](https://discord.rovelstars.com)
+This docs is about [Rovel Discord List](https://discord.rovelstars.com)
 
 Rovel Discord List (or RDL in short), is a discord listing service for bots, servers, users, api libraries, emojis, stickers and much more!
 RDL is in alpha, and is having a rewrite at the moment.

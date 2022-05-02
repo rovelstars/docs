@@ -8,7 +8,9 @@ description: A brief overview of API v0
 
 `https://discord.rovelstars.com/api`
 
-### Short Link Api Url(s) (**should not be used in production!**)
+### Short Link Api Url(s)
+
+**SHOULD NOT BE USED IN PRODUCTION!**
 
 `https://dscrdly.com/api`
 

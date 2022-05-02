@@ -48,7 +48,6 @@ description: Can't describe how much pain is writing documentation
 ```
 
 Use Query Parameter `/?q={searchTerm}` to narrow down search results!
-:::
 
 You can even use search term like `"slug":"hmm"` or similar compressed json in order to further narrow down your search results!
 
@@ -168,13 +167,13 @@ This Route can be accessed only by users (bot owners in this case) and not bots!
 
 Visit This On the same browser where you logged into RDL, or add a query `/?key={key}` to the end of api link.
 
-> Returns the bot's current if no `?slug={shortName} is passed:
+> Returns the bot's current if no `?slug={shortName}` is passed:
 
 ```js
 {"slug":"hmm"} //or will show your bot id if no slug was present
 ```
 
-> Returns the (new) slug if `?slug={shortName} is passed:
+> Returns the (new) slug if `?slug={shortName}` is passed:
 
 ```json
 {"slug":"shortName"}
